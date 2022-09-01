@@ -1,12 +1,15 @@
 // eslint-disable-next-line no-unused-vars
-const [restaurant, number] = ["pizzaPlace, numberOfToppings"];
-console.log(restaurant); // "pizzaPlace"
-console.log(number); // "numberOfToppings"
-typeof restaurant; //"Pizza Parlor"
-typeof number; // "1, 2, 3,"
-`My pizza place offers 3`;
-// eslint-disable-next-line no-undef
-If(quality, notQuantity);
+const pizzaPlace = "teePizza";
+const numberOfToppings = 3;
+console.log(pizzaPlace);
+console.log(numberOfToppings); 
+typeof pizzaPlace; 
+typeof numberOfToppings;
+console.log(`${pizzaPlace}`);
+
+if (numberOfToppings <10)
 {
-  //a whole lot of pizza
-}
+  console.log("Quality, not quantity.");
+} else {
+    console.log ("a whole lot of pizza");
+  }
